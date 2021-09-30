@@ -1,0 +1,22 @@
+{
+  "name": "recipe-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,json,graphql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.0.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "graphql-upload": "^12.0.0",
+    "mongoose": "^5.13.3",
+    "validator": "^13.6.0"
+  }
+}
